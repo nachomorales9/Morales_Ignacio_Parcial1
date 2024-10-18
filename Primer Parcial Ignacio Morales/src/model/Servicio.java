@@ -29,3 +29,4 @@ public abstract class Servicio {
     }
 }
 
+//La clase abstracta Servicio define un código de servicio, un porcentaje de descuento y un estado de promoción. Tiene un constructor que chequea el código y un método abstracto para calcular precios.
