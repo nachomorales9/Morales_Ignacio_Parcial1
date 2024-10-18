@@ -1,8 +1,8 @@
 package sistema;
 
-import model.Servicio;     // Importa la clase Servicios
-import model.Hospedaje;     // Importa la clase Hospedaje
-import model.Gastronomia;   // Importa la clase Gastronomia
+import model.Servicio;     
+import model.Hospedaje;    
+import model.Gastronomia;   
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;        
