@@ -26,3 +26,4 @@ public class Hospedaje extends Servicio {
                              codServicio, enPromocion, precioPorNoche, hospedaje);
     }
 }
+//Calcula el precio final con descuento si está en promoción y devuelve una descripción del hospedaje con sus detalles.
