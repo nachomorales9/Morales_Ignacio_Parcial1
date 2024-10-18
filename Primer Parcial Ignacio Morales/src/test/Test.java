@@ -42,7 +42,7 @@ public class Test {
                 System.out.println(e.getMessage());
             }
 
-            // Cálculo de precios finales
+         
             System.out.println("2-1 Calcular precio final de Gastronomia [489235]:");
             Gastronomia gastronomia = (Gastronomia) sistema.traerServicio("489235");
             if (gastronomia != null) {
@@ -57,7 +57,6 @@ public class Test {
                 System.out.println("Precio final de la Cabaña 3 personas: " + precioFinal);
             }
 
-            // Agregar y listar servicios
             System.out.println("3) Agregar más servicios e imprimir la lista:");
             sistema.agregarGastronomia("858927", 15.0, true, "Milanesa con pure", 350.0, 3);
             sistema.agregarHospedaje("489259", 10.0, true, "Habitación triple", 2200.0);
@@ -84,3 +83,4 @@ public class Test {
         }
     }
 }
+//crea un sitema de servicios, agrega gastronomía y hospedaje, calcula precios finales, imprime servicios en promoción y muestra resultados para fechas específicas, manejando excepciones adecuadamente.
