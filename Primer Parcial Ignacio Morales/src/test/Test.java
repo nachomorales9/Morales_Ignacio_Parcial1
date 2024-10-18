@@ -16,7 +16,7 @@ public class Test {
             try {
                 sistema.agregarGastronomia("4892", 15.0, true, "Hamburguesa criolla", 180.0, 4);
             } catch (Exception e) {
-                System.out.println(e.getMessage());
+                System.out.println(e.getMessage()); //obitne mensaje del error
             }
             
             System.out.println("1-2 Crear Gastronomia:");
